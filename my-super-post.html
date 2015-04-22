@@ -2,7 +2,7 @@
 <html lang="ch"
 >
 <head>
-    <title>呵呵</title>
+    <title>My super title - 呵呵</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,15 +10,22 @@
 
 
 
-<link rel="canonical" href="">
-        <meta name="author" content="Zun Wang" />
+<link rel="canonical" href="/my-super-post.html">
 
-    <!-- Open Graph tags -->
+        <meta name="author" content="Alexis Metaireau" />
+        <meta name="keywords" content="pelican,publishing" />
+        <meta name="description" content="Short version for index and feeds" />
+
         <meta property="og:site_name" content="呵呵" />
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="呵呵"/>
-        <meta property="og:url" content=""/>
-        <meta property="og:description" content="呵呵"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="My super title"/>
+        <meta property="og:url" content="/my-super-post.html"/>
+        <meta property="og:description" content="Short version for index and feeds"/>
+        <meta property="article:published_time" content="2014-12-03" />
+            <meta property="article:section" content="Python" />
+            <meta property="article:tag" content="pelican" />
+            <meta property="article:tag" content="publishing" />
+            <meta property="article:author" content="Alexis Metaireau" />
 
 
     <!-- Bootstrap -->
@@ -46,7 +53,7 @@
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                        <li >
+                        <li class="active">
                             <a href="/category/python.html">Python</a>
                         </li>
             </ul>
@@ -63,13 +70,41 @@
     <div class="row">
         <div class="col-sm-9">
 
-            <article>
-                <h2><a href="/my-super-post.html">My super title</a></h2>
-                <div class="summary"><p>Short version for index and feeds</p>
-                    <a class="btn btn-default btn-xs" href="/my-super-post.html">more ...</a>
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="/my-super-post.html"
+                       rel="bookmark"
+                       title="Permalink to My super title">
+                        My super title
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2014-12-03T10:20:00-08:00"> Wed 03 December 2014</time>
+    </span>
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="/tag/pelican.html">pelican</a>
+        /
+	<a href="/tag/publishing.html">publishing</a>
+    
+</footer><!-- /.post-info -->                    </div>
                 </div>
-            </article>
-            <hr/>
+                <p>This is the content of my super blog post.
+HEHE</p>
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
 
         </div>
         <div class="col-sm-3" id="sidebar">
